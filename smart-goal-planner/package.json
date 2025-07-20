@@ -1,0 +1,38 @@
+ {
+  "name": "smart-goal-planner",
+  "version": "1.0.0",
+  "private": true,
+"dependencies": {
+  "react-scripts": "5.0.1",
+  "webpack": "^5.89.0",
+  "webpack-dev-server": "^4.15.1",
+  "html-webpack-plugin": "^5.5.3",
+  "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+  "babel-loader": "^8.3.0"
+},
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "json-server --port 3001 db.json",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
